@@ -1,0 +1,16 @@
+------------------------------
+initialize git
+------------------------------
+git config --global user.name "Lazar Tomovski"
+git config --global user.email "ltomovski@abv.bg"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+------------------------------
+add files to local repository
+------------------------------
+git add .
+------------------------------
+sibmit files 
+------------------------------
+git commit -am "initial commit"
