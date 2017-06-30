@@ -1,5 +1,5 @@
 ------------------------------
-initialize git
+- initialize git
 ------------------------------
 git config --global user.name "Lazar Tomovski"
 git config --global user.email "ltomovski@abv.bg"
@@ -7,10 +7,15 @@ git config --global push.default matching
 git config --global alias.co checkout
 git init
 ------------------------------
-add files to local repository
+- add files to local repository
 ------------------------------
 git add .
 ------------------------------
-sibmit files 
+- commit files 
 ------------------------------
 git commit -am "initial commit"
+------------------------------------------------------------------------------------------------------------------------
+- push commited files to github  | https://github.com/ltomovski/php1.git - project guthub repository
+------------------------------------------------------------------------------------------------------------------------
+git remote add origin https://github.com/ltomovski/php1.git
+git push -u origin master
