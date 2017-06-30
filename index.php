@@ -5,7 +5,7 @@
  <body>
   <?php echo '<p>THIS IS MY FIRST PAGE</p>'; ?> 
  <a href='about.php'>ABOUT</a>
- <a href='hi.php'>HI</a>
- 
+ <br>
+ <a href='hi.php'>HELLO</a>
  </body>
 </html>
